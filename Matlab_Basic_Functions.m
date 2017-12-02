@@ -1,7 +1,9 @@
-% Operators
 
 % Square root of a number
 x = sqrt(y);
+
+% Round number
+x = round(y)
 
 % Vector definitions H - V
 x = [1 23 9 0];
@@ -29,3 +31,26 @@ x = A(1:3,:)		% Rows 1 to 3, and all the col
 
 % Modify
 A(2,5) = 11			
+
+% Array Operations
+x = y + 1;			
+x = y + z;
+z = 2*x
+y = x/3
+z = [3 4] .* [10 20]	% Bit
+
+% Max Value from Vector
+xMax = max(x)
+[xMax,idx] = max(x)		% Gets Index also
+
+% Vector Size
+s = size(x)		% all dimensions
+[xrow,xcol] = size(x)
+
+s = length(x) 	% just length
+
+
+ 
+
+
+
